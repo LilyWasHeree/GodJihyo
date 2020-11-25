@@ -124,7 +124,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Default profile bio.",
-      "value": "ProjectDils",
+      "value": "SapiPerah",
       "required": false
     },
     "ALIVE_NAME": {
