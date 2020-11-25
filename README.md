@@ -44,7 +44,7 @@ Generate string session on Repl.it:
 
 ### or Run on your terminal
 ```
-wget https://raw.githubusercontent.com/aidilaryanto/ProjectDils/master/terminal_getstring.sh && bash terminal_getstring.sh
+wget https://raw.githubusercontent.com/Lilywasheree/GodJihyo/master/terminal_getstring.sh && bash terminal_getstring.sh
 ```
 
 ## Google Drive Setup
