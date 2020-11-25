@@ -1,4 +1,4 @@
-# ProjecDils Userbot
+# GodJihyo Userbot
 
 <p align="center">
     <a href="https://github.com/aidilaryanto/ProjectDils/actions?query=workflow%3AFailCheck" > <img src="https://img.shields.io/github/workflow/status/aidilaryanto/ProjectDils/FailCheck/master?color=red&style=for-the-badge&logo=github-actions&logoColor=white" alt="Failcheck" /></a>
@@ -10,7 +10,7 @@
     <a href="https://t.me/userbotindo"> <img src="https://img.shields.io/badge/telegram-Support_Group-blue?style=social&logo=telegram" alt="support" /></a>
 </p>
 
-![logo](https://telegra.ph/file/29e9cfe7094e15c8caa51.png)
+![logo](https://telegra.ph/file/dcaee2103ba2c48c4bbfc.jpg)
 
 ```
 #include <std/disclaimer.h>
@@ -33,7 +33,7 @@ A modular Telegram userbot running on Python3 with sqlalchemy database.
 Based on RaphielGang's [Telegram-Paperplane](https://github.com/RaphielGang/Telegram-Paperplane) userbot with a lot of changes, features and module.
 
 ## How To Host
-Deploy ProjectDils to Heroku:
+Deploy your GodJihyo to Heroku:
 
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Lilywasheree/GodJihyo/tree/master"> <img src="https://telegra.ph/file/3d5baaff9cbb43c5a525e.png" alt="Deploy to Heroku" width="200" height="33.33"/></a></p>
 
