@@ -109,7 +109,7 @@ async def mention_afk(mention):
             if USERS[mention.sender_id] % randint(2, 4) == 0:
                 if AFKREASON:
                     await mention.reply(
-                        "I'm AFK right now."
+                        "I'm sorry but my Master is AFK right now."
                         f"\nBecause `{AFKREASON}`."
                         f"\nAFK since: {afk_str}"
                     )
@@ -175,7 +175,7 @@ async def afk_on_pm(sender):
             if sender.sender_id not in USERS:
                 if AFKREASON:
                     await sender.reply(
-                        "I'm AFK right now."
+                         " I'm sorry but my Master is AFK right now."
                         f"\nReason: `{AFKREASON}`."
                         f"\nAFK since: {afk_str}"
                     )
@@ -187,7 +187,7 @@ async def afk_on_pm(sender):
                 if USERS[sender.sender_id] % randint(2, 4) == 0:
                     if AFKREASON:
                         await sender.reply(
-                            "I'm still AFK."
+                            "I'm sorry but my master still AFK."
                             f"\nReason: `{AFKREASON}`."
                             f"\nAFK from: {afk_str}"
                         )
@@ -213,9 +213,9 @@ async def set_afk(afk_e):
     afk_start = start1.replace(microsecond=0)
     if string:
         AFKREASON = string
-        await afk_e.edit("Going AFK!" f"\nReason: `{string}`")
+        await afk_e.edit("AFK dulu cuk!" f"\nReason: `{string}`")
     else:
-        await afk_e.edit("Going AFK!")
+        await afk_e.edit("AFK dulu cuk!")
     if BOTLOG:
         await afk_e.client.send_message(BOTLOG_CHATID, "#AFK\nYou went AFK!")
     ISAFK = True
@@ -243,9 +243,9 @@ async def type_afk_is_not_true(notafk):
         if BOTLOG:
             await notafk.client.send_message(
                 BOTLOG_CHATID,
-                "You've recieved "
+                "Kamu menerima "
                 + str(COUNT_MSG)
-                + " messages from "
+                + " pesan dari "
                 + str(len(USERS))
                 + " chats while you were away",
             )
