@@ -1,6 +1,6 @@
 {
   "name": "Telegram ProjectDils",
-  "description": "[ProjectDils] A modular Telegram userbot running on Python 3.7+ with an sqlalchemy database.",
+  "description": "[jihyoproject] A modular Telegram userbot running on Python 3.7+ with an sqlalchemy database.",
   "logo": "https://i.ibb.co/LR8gHDG/Project-Dils.png",
   "keywords": [
     "telegram",
@@ -9,17 +9,19 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/aidilaryanto/ProjectDils",
+  "repository": "https://github.com/LilyWasHeree/ProjectDils",
   "website": "https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02",
   "success_url": "https://t.me/userbotindo",
   "stack": "container",
   "env": {
     "API_KEY": {
       "description": "Get this value from my.telegram.org.",
+      "value": "1896867",
       "required": true
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org.",
+      "value": "C48bfca055a60e08f8d20de816e7eac9",
       "required": true
     },
     "STRING_SESSION": {
@@ -41,7 +43,7 @@
     },
     "UPSTREAM_REPO_URL": {
       "description": "In case you maintain a fork, add your repo URL here.",
-      "value": "https://github.com/aidilaryanto/ProjectDils",
+      "value": "https://github.com/LilyWasHeree/ProjectDils",
       "required": false
     },
     "COUNTRY": {
@@ -59,7 +61,7 @@
     },
     "BOTLOG": {
       "description": "Incase you want to turn off logging, put this to false",
-      "value": "False"
+      "value": "True"
     },
     "BOTLOG_CHATID": {
       "description": "ChatID of the Log group. Set it to '0' if BOTLOG = False and/or if LOGSPAMMER = False.",
@@ -129,11 +131,12 @@
     },
     "ALIVE_NAME": {
       "description": "Name to show in .alive/on message",
+      "value": "SapiJihyo",
       "required": false
     },
     "ALIVE_LOGO": {
       "description": "Show image/logo in .alive/on message",
-      "value": "https://telegra.ph/file/36df725e1554826a2dfda.png",
+      "value": "https://telegra.ph/file/a84f376263b678bc56cb9.jpg",
       "required": false
     },
     "G_DRIVE_DATA": {
