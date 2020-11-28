@@ -1,7 +1,7 @@
 {
-  "name": "Telegram ProjectDils",
+  "name": "GodJihyo Project",
   "description": "[jihyoproject] A modular Telegram userbot running on Python 3.7+ with an sqlalchemy database.",
-  "logo": "https://i.ibb.co/LR8gHDG/Project-Dils.png",
+  "logo": "https://telegra.ph/file/500b184694672b35af691.png",
   "keywords": [
     "telegram",
     "userbot",
