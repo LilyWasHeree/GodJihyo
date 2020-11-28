@@ -180,10 +180,12 @@
     },
     "G_PHOTOS_CLIENT_ID": {
       "description": "get the client id from https://j.mp/39lWQQm",
+      "value": "512615407984-f1c9brmnhqoloifrhi089h1fu7ptnsak.apps.googleusercontent.com",
       "required": false
     },
     "G_PHOTOS_CLIENT_SECRET": {
       "description": "get the client secret from https://j.mp/39lWQQm",
+      "value": "skWI8wiJ5mzT8N7D5VTuw9Ym",
       "required": false
     },
     "WATCH_COUNTRY": {
