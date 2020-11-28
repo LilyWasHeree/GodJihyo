@@ -98,8 +98,8 @@ async def mention_afk(mention):
         if not is_bot and mention.sender_id not in USERS:
             if AFKREASON:
                 await mention.reply(
-                    "I'm AFK right now."
-                    f"\nBecause `{AFKREASON}`."
+                    "I'm sorry but my Master is not here right now.."
+                    f"\nBecause he's `{AFKREASON}`."
                     f"\nAFK since: {afk_str}"
                 )
             else:
@@ -109,8 +109,8 @@ async def mention_afk(mention):
             if USERS[mention.sender_id] % randint(2, 4) == 0:
                 if AFKREASON:
                     await mention.reply(
-                        "I'm sorry but my Master is AFK right now."
-                        f"\nBecause `{AFKREASON}`."
+                        "I'm sorry but my Master is not here right now."
+                        f"\nBecause he's`{AFKREASON}`."
                         f"\nAFK since: {afk_str}"
                     )
                 else:
@@ -175,8 +175,8 @@ async def afk_on_pm(sender):
             if sender.sender_id not in USERS:
                 if AFKREASON:
                     await sender.reply(
-                         " I'm sorry but my Master is AFK right now."
-                        f"\nReason: `{AFKREASON}`."
+                         " I'm sorry but my Master is not here right now."
+                        f"\nBecause he's: `{AFKREASON}`."
                         f"\nAFK since: {afk_str}"
                     )
                 else:
@@ -187,8 +187,8 @@ async def afk_on_pm(sender):
                 if USERS[sender.sender_id] % randint(2, 4) == 0:
                     if AFKREASON:
                         await sender.reply(
-                            "I'm sorry but my master still AFK."
-                            f"\nReason: `{AFKREASON}`."
+                            I'm sorry but my Master is not here right now.
+                            f"\nBecause he's: `{AFKREASON}`."
                             f"\nAFK from: {afk_str}"
                         )
                     else:
