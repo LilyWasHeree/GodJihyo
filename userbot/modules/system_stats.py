@@ -242,14 +242,14 @@ async def amireallyalive(alive):
     """For .alive command, check if the bot is running."""
     uptime = await get_readable_time((time.time() - StartTime))
     output = (
-        "`ProjectDils is running...`\n"
+        "`I'm alive master...`\n"
         f"`•••••••••••••••••••••••••••••••••••••`\n"
-        f"👤 `User           :`  {DEFAULTUSER}\n"
-        f"🐍 `Python         : v{python_version()}`\n"
-        f"⚙️ `Telethon       : v{version.__version__}`\n"
-        f"🤖 `ProjectDils    : v{PROJECTDILS_VERSION}`\n"
-        f"🧩 `Loaded Modules : {len(modules)}`\n"
-        f"🕒 `Bot Uptime     : {uptime} `\n"
+        f"👤 `Masternya      :`  {DEFAULTUSER}\n"
+        f"🐍 `Pythonnya      : v{python_version()}`\n"
+        f"⚙️ `Telethonnya    : v{version.__version__}`\n"
+        f"🌺 `GodJihyo.      : v{PROJECTDILS_VERSION}`\n"
+        f"💽 `Modulnya.      : {len(modules)}`\n"
+        f"🕒 `Botnya bangun  : {uptime} `\n"
         f"`•••••••••••••••••••••••••••••••••••••`\n"
     )
     if ALIVE_LOGO:
