@@ -247,7 +247,6 @@ async def amireallyalive(alive):
         f"👤 `Masternya      :`  {DEFAULTUSER}\n"
         f"🐍 `Pythonnya      : v{python_version()}`\n"
         f"⚙️ `Telethonnya    : v{version.__version__}`\n"
-        f"🌺 `GodJihyo.      : v{PROJECTDILS_VERSION}`\n"
         f"💽 `Modulnya.      : {len(modules)}`\n"
         f"🕒 `Botnya bangun  : {uptime} `\n"
         f"`•••••••••••••••••••••••••••••••••••••`\n"
